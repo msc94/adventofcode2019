@@ -1,0 +1,11 @@
+[package]
+name = "adventofcode2019"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "utils"
+path = "src/utils/utils.rs"
+
+[dependencies]
+itertools = "0.10.5"
